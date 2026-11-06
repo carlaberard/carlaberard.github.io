@@ -1,7 +1,7 @@
 window.PORTFOLIO_PROJECTS = [
   {
     "id": "age-estimation",
-    "photo": "assets/project-photos/age-estimation.png",
+    "photo": "age-estimation.png",
     "title": "Age Estimation from Face & Voice",
     "short": "Comparing scratch CNNs with transfer learning for age regression from facial images and speech recordings.",
     "category": "AI & Machine Learning",
@@ -29,7 +29,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "voice-pathology",
-    "photo": "assets/project-photos/voice-pathology.png",
+    "photo": "voice-pathology.png",
     "title": "Voice Pathology Classification",
     "short": "Machine learning on electroglottography and neck-surface recordings to classify voice disorders.",
     "category": "AI & Machine Learning",
@@ -57,7 +57,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "hodgkin-huxley-neuron",
-    "photo": "assets/project-photos/hodgkin-huxley-simulink.png",
+    "photo": "hodgkin-huxley-simulink.png",
     "title": "Hodgkin–Huxley Neuron Modelling",
     "short": "Simulating neuronal membrane dynamics and ionic currents in MATLAB/Simulink under different stimulation patterns.",
     "category": "Biomedical Signals & Modelling",
@@ -85,7 +85,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "eeg-sleep-spectral",
-    "photo": "assets/project-photos/eeg-spectral-topograms.png",
+    "photo": "eeg-spectral-topograms.png",
     "title": "EEG Sleep Spectral Analysis",
     "short": "Comparing seven power spectral density estimators and visualizing EEG frequency bands across sleep stages.",
     "category": "Biomedical Signals & Modelling",
@@ -113,7 +113,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "ecg-pvc-detection",
-    "photo": "assets/project-photos/ecg-pvc-template.png",
+    "photo": "ecg-pvc-template.png",
     "title": "ECG PVC Detection & Analysis",
     "short": "Identifying premature ventricular contractions using ECG template averaging, normalized cross-correlation and peak detection.",
     "category": "Biomedical Signals & Modelling",
@@ -141,7 +141,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "telecare",
-    "photo": "assets/project-photos/telecare.png",
+    "photo": "telecare.png",
     "title": "IoT Telecare & Wearable Monitoring",
     "short": "Bangle.js sensors, BLE, Arduino, cloud dashboards and automatic SMS alerts in one telecare prototype.",
     "category": "Connected Devices",
@@ -169,7 +169,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "pulse-oximeter",
-    "photo": "assets/project-photos/pulse-oximeter.png",
+    "photo": "pulse-oximeter.png",
     "title": "Pulse Oximeter · Embedded Electronics",
     "short": "A PIC microcontroller prototype integrating optical sensing, I²C and UART for heart-rate and SpO₂ readings.",
     "category": "Connected Devices",
@@ -197,7 +197,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "mri-restoration",
-    "photo": "assets/project-photos/mri-restoration.png",
+    "photo": "mri-restoration.png",
     "title": "Brain MRI Denoising",
     "short": "Noise reduction and anatomical detail preservation using five classical image-restoration techniques.",
     "category": "Medical Imaging",
@@ -225,7 +225,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "mri-segmentation",
-    "photo": "assets/project-photos/mri-segmentation.png",
+    "photo": "mri-segmentation.png",
     "title": "2D vs 3D Brain MRI Segmentation",
     "short": "Sobel, Otsu and K-means applied slice-by-slice and across full MRI volumes.",
     "category": "Medical Imaging",
@@ -253,7 +253,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "mri-registration-2d",
-    "photo": "assets/project-photos/mri-registration-2d.png",
+    "photo": "mri-registration-2d.png",
     "title": "2D MRI Image Registration",
     "short": "Affine versus diffeomorphic registration for aligning individual brain MRI slices.",
     "category": "Medical Imaging",
@@ -281,7 +281,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "mri-registration-3d",
-    "photo": "assets/project-photos/mri-registration-3d.png",
+    "photo": "mri-registration-3d.png",
     "title": "3D Brain MRI Registration",
     "short": "Volumetric alignment of segmented and non-segmented brain MRIs using affine and deformable methods.",
     "category": "Medical Imaging",
@@ -309,7 +309,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "xray-classical",
-    "photo": "assets/project-photos/xray-classical.png",
+    "photo": "xray-classical.png",
     "title": "Chest X-ray Classification · Classical ML",
     "short": "HOG features with SVM, KNN and Random Forest for three-class chest radiograph classification.",
     "category": "AI & Machine Learning",
@@ -337,7 +337,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "xray-deep",
-    "photo": "assets/project-photos/xray-deep.png",
+    "photo": "xray-deep.png",
     "title": "Chest X-ray Classification · Deep Learning",
     "short": "Scratch CNNs, data augmentation and ResNet-18 transfer learning in PyTorch.",
     "category": "AI & Machine Learning",
@@ -421,7 +421,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "robot-collab",
-    "photo": "assets/project-photos/robot-collab.png",
+    "photo": "robot-collab.png",
     "title": "UR3 + UR3e Collaborative Robotics",
     "short": "Two coordinated robotic arms exchanging TCP/IP messages to synchronize a shared task.",
     "category": "Robotics & Control",
