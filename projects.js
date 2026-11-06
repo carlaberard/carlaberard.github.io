@@ -173,7 +173,7 @@ window.PORTFOLIO_PROJECTS = [
     "title": "Pulse Oximeter · Embedded Electronics",
     "short": "A PIC microcontroller prototype integrating optical sensing, I²C and UART for heart-rate and SpO₂ readings.",
     "category": "Connected Devices",
-    "year": "",
+    "year": "2025",
     "repo": "",
     "tech": [
       "C / MPLAB X",

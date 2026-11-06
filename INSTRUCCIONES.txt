@@ -1,0 +1,7 @@
+CORRECCION EN 3 ARCHIVOS - no hace falta volver a subir fotografias.
+1. Descomprime este ZIP.
+2. Entra en https://github.com/carlaberard/carlaberard.github.io (directorio principal).
+3. Add file -> Upload files.
+4. Arrastra index.html, style.css, projects.js SIN la carpeta exterior.
+5. Commit changes.
+6. Comprueba la web al finalizar GitHub Pages.
