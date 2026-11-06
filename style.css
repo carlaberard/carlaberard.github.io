@@ -230,3 +230,10 @@ section.section {padding:88px 0;}
 @media (max-width:560px) {
   .site-nav .nav-links > a:first-child {display:none;}
 }
+
+/* Personal project images are displayed uncropped and without visual filters or zoom. */
+.card-art {background:#f8faff;}
+.card-art img {object-fit:contain;object-position:center;transform:none!important;filter:none!important;}
+.project-card:hover .card-art img {transform:none!important;}
+.detail-art {background:#f8faff;}
+.detail-art img {width:100%;height:auto;object-fit:contain;filter:none;transform:none;}

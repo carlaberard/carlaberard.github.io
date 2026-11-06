@@ -1,0 +1,4 @@
+Personal photos chosen by Carla for each project.
+Original user images must be copied here without editing, recoloring, or modifying the subject.
+Use the photo property in assets/data/projects.js to point each project to its selected picture, e.g. "photo": "assets/project-photos/age-estimation.jpg".
+Pending choices keep the existing illustration temporarily.

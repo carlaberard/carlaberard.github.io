@@ -1,0 +1,18 @@
+PROJECT PHOTO ASSIGNMENT — uploaded source pixels preserved byte-for-byte
+
+01 Age Estimation — age-estimation.png
+02 Voice Pathology — voice-pathology.png
+03 IoT Telecare — telecare.png
+04 Pulse Oximeter (ADDED NEW PROJECT) — pulse-oximeter.png
+05 Brain MRI Restoration — mri-restoration.png
+06 Brain MRI Segmentation — mri-segmentation.png
+   Alternative only: mri-segmentation-2d-alternative.png
+07 MRI 2D Registration — mri-registration-2d.png
+08 MRI 3D Registration — mri-registration-3d.png
+09 Chest X-ray Classical ML — xray-classical.png
+10 Chest X-ray Deep Learning — xray-deep.png
+11 UR3e Seven-Segment Pick-and-place — PENDING (site shows existing illustration)
+12 UR3e Force-feedback — PENDING (site shows existing illustration)
+13 UR3 + UR3e Collaborative Robotics — robot-collab.png
+
+The pulse oximeter has no confirmed GitHub repo. Its repository button remains disabled.
