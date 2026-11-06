@@ -1,0 +1,6 @@
+Actualizacion enlaces GitHub de los 16 proyectos.
+
+Descomprime y sube SOLAMENTE estos cuatro archivos al nivel principal de https://github.com/carlaberard/carlaberard.github.io :
+index.html, project.html, projects.js y site.js
+Luego pulsa Commit changes.
+No arrastres la carpeta exterior ni el ZIP. No hace falta subir fotos otra vez.

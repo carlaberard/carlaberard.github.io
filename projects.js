@@ -34,7 +34,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "Machine learning on electroglottography and neck-surface recordings to classify voice disorders.",
     "category": "AI & Machine Learning",
     "year": "2025",
-    "repo": "voice-pathology-detection-machine-learning",
+    "repo": "voice-pathology-estimation",
     "tech": [
       "Python",
       "Scikit-learn",
@@ -62,7 +62,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "Simulating neuronal membrane dynamics and ionic currents in MATLAB/Simulink under different stimulation patterns.",
     "category": "Biomedical Signals & Modelling",
     "year": "2026",
-    "repo": "",
+    "repo": "hodgkin-huxley-neuron-modelling",
     "tech": [
       "MATLAB",
       "Simulink",
@@ -90,7 +90,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "Comparing seven power spectral density estimators and visualizing EEG frequency bands across sleep stages.",
     "category": "Biomedical Signals & Modelling",
     "year": "2026",
-    "repo": "",
+    "repo": "eeg-sleep-spectral-analysis",
     "tech": [
       "MATLAB",
       "EEG",
@@ -118,7 +118,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "Identifying premature ventricular contractions using ECG template averaging, normalized cross-correlation and peak detection.",
     "category": "Biomedical Signals & Modelling",
     "year": "2026",
-    "repo": "",
+    "repo": "ecg-pvc-detection-analysis",
     "tech": [
       "MATLAB",
       "ECG",
@@ -174,7 +174,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "A PIC microcontroller prototype integrating optical sensing, I²C and UART for heart-rate and SpO₂ readings.",
     "category": "Connected Devices",
     "year": "2025",
-    "repo": "",
+    "repo": "pic-pulse-oximeter",
     "tech": [
       "C / MPLAB X",
       "PIC18F4321",
@@ -202,7 +202,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "Noise reduction and anatomical detail preservation using five classical image-restoration techniques.",
     "category": "Medical Imaging",
     "year": "2024",
-    "repo": "brain-mri-image-restoration",
+    "repo": "Brain-MRI-Image-Restoration-and-Denoising",
     "tech": [
       "Python",
       "OpenCV",
@@ -342,7 +342,7 @@ window.PORTFOLIO_PROJECTS = [
     "short": "Scratch CNNs, data augmentation and ResNet-18 transfer learning in PyTorch.",
     "category": "AI & Machine Learning",
     "year": "2024",
-    "repo": "chest-xray-cnn-transfer-learning",
+    "repo": "chest-xray-deep-learning-cnn",
     "tech": [
       "PyTorch",
       "ResNet-18",
