@@ -1,5 +1,71 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Carla Berard González — biomedical engineering portfolio featuring artificial intelligence, medical imaging, robotics and connected health projects."><title>Carla Berard González · Biomedical Engineering Portfolio</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"></head><body><a class="skip" href="#main">Skip to content</a>
-<div class="hero-shell"><header class="site-nav wrap"><a class="brand" href="index.html">CARLA <em>BERARD GONZÁLEZ</em></a><nav class="nav-links" aria-label="Primary navigation"><a href="index.html#projects">Projects</a><a href="index.html#contact">Contact</a><a class="nav-cta" href="index.html#projects">View work ↗</a></nav></header><main id="main"><div class="portfolio-photo-section" aria-label="Photographs of engineering projects and research"><div class="portfolio-collage"><figure class="collage-frame collage-portrait"><img src="conference.png" alt="Carla at the 4YFN technology conference" loading="eager" decoding="async"></figure><figure class="collage-frame collage-code"><img src="coding.png" alt="Programming and hardware prototyping with a laptop" loading="eager" decoding="async"></figure><figure class="collage-frame collage-lab"><img src="experiment.png" alt="Laboratory experiment with measurement tripods" loading="eager" decoding="async"></figure><figure class="collage-frame collage-mri"><img src="mri.png" alt="Brain MRI medical imaging views" loading="eager" decoding="async"></figure><figure class="collage-frame collage-robots"><img src="robots.png" alt="Collaborative robotic arms in a laboratory" loading="eager" decoding="async"></figure><figure class="collage-frame collage-circuit"><img src="electronics.png" alt="Original embedded electronics prototype" loading="eager" decoding="async"></figure><figure class="collage-frame collage-wearable"><img src="wearable.png" alt="Wearable sensor evaluation on an arm" loading="eager" decoding="async"></figure><figure class="collage-frame collage-conference"><img src="portrait.jpg" alt="Selfie of Carla Berard González at a technology exhibition" loading="eager" decoding="async"></figure></div><div class="collage-filmstrip"><figure class="collage-frame "><img src="prosthetic.png" alt="Robotic hand and arm" loading="eager" decoding="async"></figure><figure class="collage-frame "><img src="presentation.png" alt="Presentation of machine learning nanomotor research" loading="eager" decoding="async"></figure><figure class="collage-frame "><img src="eeg-maps.png" alt="Original EEG scalp topography results" loading="eager" decoding="async"></figure><figure class="collage-frame "><img src="eeg-psd.png" alt="Original EEG power spectral density results" loading="eager" decoding="async"></figure></div></div><div class="hero-mosaic-wash" aria-hidden="true"></div><div class="wrap hero hero-simple"><div class="hero-content"><h1>Exploring the intersection of<br><span>engineering, neuroscience and healthcare.</span></h1><p class="lead">Hi! I'm Carla, a Biomedical Engineer currently pursuing an MSc in Neuroengineering and Rehabilitation. I'm curious about how engineering and science can come together to solve medical challenges. I enjoy exploring new ideas, learning across disciplines and developing technologies that can make a real difference in healthcare. Here are some of the projects I've worked on so far!</p><div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my projects <span class="btn-arrow">↗</span></a></div></div></div></main></div>
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Carla Berard González — biomedical engineering portfolio featuring artificial intelligence, medical imaging, robotics and connected health projects."><title>Carla Berard González · Biomedical Engineering Portfolio</title><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><style>
+
+/* Original, unretouched website selfie displayed only as a small round header photo. */
+.site-nav .brand.brand-with-photo {
+  display:inline-flex;align-items:center;gap:11px;white-space:nowrap;
+  flex-shrink:0;min-width:0;
+}
+.site-nav .brand-with-photo .brand-name {display:inline-block;line-height:1.35;}
+.site-nav .brand-with-photo .brand-profile-photo {
+  width:108px;height:108px;flex:0 0 108px;
+  border-radius:50%;object-fit:contain;object-position:center center;
+  border:2px solid rgba(255,255,255,.95);
+  box-shadow:0 2px 12px rgba(33,75,148,.13);
+  background:#eff2f7;
+}
+@media(max-width:720px) {
+  .site-nav .brand.brand-with-photo {gap:8px;font-size:clamp(10px,2.6vw,13px);letter-spacing:.045em;}
+  .site-nav .brand-with-photo .brand-profile-photo {width:78px;height:78px;flex-basis:78px;}
+}
+@media(max-width:380px) {
+  .site-nav .brand.brand-with-photo {font-size:10px;letter-spacing:.025em;}
+  .site-nav .brand-with-photo .brand-profile-photo {width:64px;height:64px;flex-basis:64px;}
+}
+
+
+@media(max-width:420px) {
+  .site-nav .nav-links .nav-cta {display:none;}
+  .site-nav .brand.brand-with-photo {white-space:normal;}
+  .site-nav .brand-with-photo .brand-name {line-height:1.2;}
+}
+
+@media(max-width:880px){.site-nav .nav-links .nav-cta{display:none!important;}}
+@media(max-width:720px){.site-nav{gap:8px}.site-nav .brand.brand-with-photo{gap:9px;white-space:normal}.site-nav .brand-name{line-height:1.15}.site-nav .nav-links{gap:12px}}
+@media(max-width:470px){.site-nav .brand-with-photo .brand-profile-photo{width:68px;height:68px;flex-basis:68px}.site-nav .nav-links{display:none}}
+
+/* Exact positions from the editable PowerPoint slide 1. */
+.hero-shell .portfolio-photo-section{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;}
+.hero-shell .portfolio-collage.ppt-portfolio-collage{
+  display:block!important;position:relative!important;width:100%!important;height:100%!important;
+  min-height:0!important;max-height:none!important;flex:none!important;
+}
+.hero-shell .ppt-portfolio-collage .collage-frame.ppt-tile{
+  position:absolute!important;grid-area:auto!important;display:block!important;
+  overflow:hidden!important;border:0!important;border-radius:0!important;
+  margin:0!important;padding:0!important;box-shadow:none!important;
+  background:#f9fbff!important;
+}
+.hero-shell .ppt-portfolio-collage .ppt-tile img{
+  display:block;width:100%;height:100%;object-fit:cover!important;object-position:center center!important;
+  max-height:none!important;border-radius:0!important;filter:none!important;transform:none!important;
+}
+.hero-shell .ppt-portfolio-collage .ppt-tile.figure img{
+  object-fit:contain!important;object-position:center center!important;
+}
+/* On phones use a real grid rather than shrinking desktop labels into unreadable strips. */
+@media(max-width:650px){
+ .hero-shell .portfolio-collage.ppt-portfolio-collage{
+   display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(6,minmax(0,1fr));
+   gap:0!important;
+ }
+ .hero-shell .ppt-portfolio-collage .collage-frame.ppt-tile{
+   position:relative!important;left:auto!important;top:auto!important;width:auto!important;height:auto!important;
+ }
+ .hero-shell .ppt-portfolio-collage .ppt-tile img{object-fit:cover!important;}
+ .hero-shell .ppt-portfolio-collage .ppt-tile.figure img{object-fit:contain!important;}
+}
+</style></head><body><a class="skip" href="#main">Skip to content</a>
+<div class="hero-shell"><header class="site-nav wrap"><a class="brand brand-with-photo" href="index.html"><img class="brand-profile-photo" src="carla-profile.png" alt="" width="108" height="108" decoding="async"><span class="brand-name">CARLA <em>BERARD GONZÁLEZ</em></span></a><nav class="nav-links" aria-label="Primary navigation"><a href="index.html#projects">Projects</a><a href="index.html#contact">Contact</a><a class="nav-cta" href="index.html#projects">View work ↗</a></nav></header><main id="main"><div class="portfolio-photo-section" aria-label="Original photographs and experimental results from biomedical engineering projects"><div class="portfolio-collage ppt-portfolio-collage"><figure class="collage-frame ppt-tile ppt-tile-1 photo" style="left:0.00000%;top:0.00000%;width:30.90278%;height:33.49999%"><img src="presentation.png" alt="Presentation of machine-learning nanomotor research" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-2 photo" style="left:30.90278%;top:0.00000%;width:21.52778%;height:33.49999%"><img src="electronics.png" alt="Embedded electronics circuit board" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-3 photo" style="left:52.43056%;top:0.00000%;width:47.43056%;height:33.49999%"><img src="robots.png" alt="Collaborative UR3 and UR3e robotics" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-4 figure" style="left:0.00000%;top:33.71271%;width:26.04167%;height:32.07456%"><img src="assistive-torque-signal.png" alt="Assistive torque and frequency adaptation signal plots" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-5 figure" style="left:26.04167%;top:39.11886%;width:35.41667%;height:21.26224%"><img src="mri-registration-comparison.png" alt="Fixed, moving, and affine-registered brain MRI image comparison" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-6 photo" style="left:61.45833%;top:33.49999%;width:13.54167%;height:32.50000%"><img src="wearable.png" alt="Wearable wireless antenna sensor" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-7 photo" style="left:75.00000%;top:33.49999%;width:24.86111%;height:32.50000%"><img src="coding.png" alt="IoT hardware and programming on a laptop" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-8 photo" style="left:0.00000%;top:65.99999%;width:20.83333%;height:34.00000%"><img src="experiment.png" alt="Experimental laboratory measurement setup" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-9 figure" style="left:20.83333%;top:75.58055%;width:23.26389%;height:14.83887%"><img src="eeg-maps.png" alt="EEG scalp topography results" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-10 figure" style="left:44.09722%;top:75.82825%;width:23.26389%;height:14.34348%"><img src="eeg-psd.png" alt="EEG spectral power density results" loading="eager" decoding="async"></figure><figure class="collage-frame ppt-tile ppt-tile-11 photo" style="left:67.36111%;top:65.99999%;width:32.50000%;height:33.72376%"><img src="prosthetic.png" alt="Robotic prosthetic hand and arm" loading="eager" decoding="async"></figure></div></div><div class="hero-mosaic-wash" aria-hidden="true"></div><div class="wrap hero hero-simple"><div class="hero-content"><h1>Exploring the intersection of<br><span>engineering, neuroscience and healthcare.</span></h1><p class="lead">Hi! I'm Carla, a Biomedical Engineer currently pursuing an MSc in Neuroengineering and Rehabilitation. I'm curious about how engineering and science can come together to solve medical challenges. I enjoy exploring new ideas, learning across disciplines and developing technologies that can make a real difference in healthcare. Here are some of the projects I've worked on so far!</p><div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my projects <span class="btn-arrow">↗</span></a></div></div></div></main></div>
 <section class="section" id="projects"><div class="wrap"><div class="section-heading"><div><div class="section-kicker">The portfolio</div><h2>Selected engineering work</h2></div><p>From neuroengineering and biomedical signals to artificial intelligence, medical imaging and robotics. Explore the methods and results behind each project.</p></div><div class="search-tools"><div class="filters" id="filters"><button class="filter active" type="button" data-filter="All" aria-pressed="true">All projects</button><button class="filter" type="button" data-filter="AI & Machine Learning">AI & ML</button><button class="filter" type="button" data-filter="Biomedical Signals & Modelling">Signals &amp; Modelling</button><button class="filter" type="button" data-filter="Medical Imaging">Medical Imaging</button><button class="filter" type="button" data-filter="Robotics & Control">Robotics</button><button class="filter" type="button" data-filter="Connected Devices">IoT / Wearables</button></div></div><div class="projects-grid" id="projectsGrid"></div><div class="empty-state" id="emptyState">No projects in this category.</div></div></section>
 
 <section class="section" id="contact"><div class="wrap"><div class="contact-block"><div><div class="eyebrow" style="color:#b9d5ff">Let's connect</div><h2>Interested in working together?</h2><p>Open to conversations about neurotechnology, rehabilitation, assistive systems and biomedical R&D.</p></div><div class="contact-actions" id="contactActions"><a class="btn btn-primary" href="#projects">See my work ↗</a></div></div></div></section><footer class="footer wrap"><span>© <span id="currentYear">2026</span> Carla Berard González · Built with GitHub Pages</span><span>Biomedical Engineering · Neuroengineering & Rehabilitation</span></footer><script src="config.js"></script><script src="projects.js"></script><script src="site.js"></script></body></html>

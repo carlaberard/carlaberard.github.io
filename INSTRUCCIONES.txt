@@ -1,7 +1,2 @@
-CORRECCION EN 3 ARCHIVOS - no hace falta volver a subir fotografias.
-1. Descomprime este ZIP.
-2. Entra en https://github.com/carlaberard/carlaberard.github.io (directorio principal).
-3. Add file -> Upload files.
-4. Arrastra index.html, style.css, projects.js SIN la carpeta exterior.
-5. Commit changes.
-6. Comprueba la web al finalizar GitHub Pages.
+IMPORTANTE: extrae el ZIP y sube LOS CINCO archivos (index.html, project.html, carla-profile.png, assistive-torque-signal.png, mri-registration-comparison.png) a la RAIZ de tu repositorio github.com/carlaberard/carlaberard.github.io > Add file > Upload files > Commit changes. No subas el ZIP ni la carpeta exterior.
+Foto de perfil: exactamente la imagen original que enviaste, SIN RETOQUES, ahora de 108 px en PC / 78 px en movil. Collage: posiciones de las fotos de la primera diapositiva del PowerPoint adjunto. Los 16 proyectos y enlaces no se modifican.
