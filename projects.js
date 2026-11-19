@@ -1,5 +1,34 @@
 window.PORTFOLIO_PROJECTS = [
   {
+    "id": "human-gait-analysis",
+    "photo": "gait-analysis.svg",
+    "title": "Human Gait Analysis — Kinovea & Vicon Nexus",
+    "short": "Comparing 2D video-based gait measurements with 3D marker-based motion capture to study gait timing and lower-limb kinematics.",
+    "category": "Biomedical Signals & Modelling",
+    "year": "2025",
+    "repo": "",
+    "tech": [
+      "Kinovea",
+      "Vicon Nexus",
+      "3D Motion Capture",
+      "Biomechanics"
+    ],
+    "theme": "signal",
+    "shape": "wave",
+    "featured": false,
+    "metric": "2D + 3D",
+    "metricLabel": "Video-based and marker-based gait analysis",
+    "summary": "A biomechanics project at La Salle – Universitat Ramon Llull investigating human walking with two complementary approaches. We first analysed lateral-view smartphone videos in Kinovea, then collected and processed three-dimensional lower-limb marker trajectories with Vicon Nexus at the MediaLab. The aim was to study gait phases, joint kinematics and the sources of measurement error in each workflow.",
+    "details": [
+      "Recorded sagittal-view walking video at 60 frames/s, identified anatomical landmarks and gait events, and measured ankle, knee and hip angles using Kinovea.",
+      "Calculated the proportions of single support (41.66%), double support (19.86%) and swing (38.48%) from the selected 2D gait cycles.",
+      "Calibrated the Vicon capture volume and acquired walking trials using 16 reflective markers placed according to the Plug-in Gait Lower Body protocol.",
+      "Reconstructed and labelled trajectories, reviewed marker gaps, checked gait-event timing and examined 3D joint-angle curves and bilateral movement patterns."
+    ],
+    "outcome": "The 2D analysis reported 61.52% of the gait cycle in support and 38.48% in swing, close to the commonly described 60/40 distribution. Vicon Nexus provided model-derived 3D kinematics and left–right joint-angle curves. The project highlighted the influence of calibration, landmark placement, occlusion and event selection on gait measurements.",
+    "note": "Exploratory academic exercise using a limited number of walking trials. The 2D and 3D recordings were not synchronised against a shared reference, so this project does not quantify comparative accuracy or establish a clinical diagnosis."
+  },
+  {
     "id": "age-estimation",
     "photo": "age-estimation.png",
     "title": "Age Estimation from Face & Voice",
