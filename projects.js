@@ -1,7 +1,7 @@
 window.PORTFOLIO_PROJECTS = [
   {
     "id": "human-gait-analysis",
-    "photo": "gait-analysis.svg",
+    "photo": "gait-analysis-cover.jpg",
     "title": "Human Gait Analysis — Kinovea & Vicon Nexus",
     "short": "Comparing 2D video-based gait measurements with 3D marker-based motion capture to study gait timing and lower-limb kinematics.",
     "category": "Biomedical Signals & Modelling",
@@ -394,7 +394,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "robot-pick",
-    "photo": "",
+    "photo": "ur3e-seven-segment-assembly.jpg",
     "title": "UR3e Seven-Segment Robotic Assembly",
     "short": "URScript-controlled gripper movements to arrange blocks into user-selected digits.",
     "category": "Robotics & Control",
@@ -422,7 +422,7 @@ window.PORTFOLIO_PROJECTS = [
   },
   {
     "id": "robot-force",
-    "photo": "",
+    "photo": "ur3e-force-feedback.jpg",
     "title": "UR3e Force-Feedback Manipulation",
     "short": "Contact-aware block detection and tower placement using wrist force sensing and URScript threads.",
     "category": "Robotics & Control",
